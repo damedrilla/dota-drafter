@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Radiance';
+  src: url('/fonts/Radiance.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Reaver';
+  src: url('/fonts/Reaver.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* global defaults, change as desired */
+:root {
+  --ui-font: 'Radiance', system-ui, sans-serif;
+  --alt-font: 'Reaver', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--ui-font);
+}
+
+/* utility classes */
+.font-radiance { font-family: 'Radiance', sans-serif; }
+.font-reaver  { font-family: 'Reaver', sans-serif; }
